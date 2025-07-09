@@ -1,0 +1,21 @@
+// StickyHeader.scss
+.sticky-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+    z-index: 100;
+    /* 初始样式 */
+    background-color: transparent;
+    height: 60px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: white;
+    /* 吸顶后背景变化 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    /* 吸顶后高度变化 */
+}

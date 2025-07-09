@@ -1,0 +1,40 @@
+.food-list {
+  display: flex;
+  height: 90vh;
+
+  .left-menu {
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .right-content {
+    flex-grow: 1;
+    margin-left: 200px;
+    overflow-y: scroll;
+  }
+
+  .food-item {
+    display: flex;
+    padding: 20px;
+
+  }
+
+  .food-item-description {
+    margin-left: 20px;
+    flex-grow: 1;
+
+    .title {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .ingredients {
+      color: grey;
+    }
+  }
+}
